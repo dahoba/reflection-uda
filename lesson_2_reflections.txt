@@ -1,9 +1,29 @@
 #1
 
 What happens when you initialize a repository? Why do you need to do it?
+
 A: git create a `.git` directory contains git metadata, about files changed history.
 
 #2
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
 A: staging area is where the file(s) was ready to commit. working directory can contain both untracked files and tracked files. We can group a commit by put them into the staging area prior the commit.
+
+#3
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+A: By using `git add` command
+
+#4
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Want a new features or try some experiment but did not want to break the main line of development.
+
+#5
+
+How do the diagrams help you visualize the branch structure?
+
+A: 
